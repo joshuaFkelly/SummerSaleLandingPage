@@ -1,6 +1,15 @@
 import React from "react";
 import ReactDOM from 'react-dom/client';
-import App from "./App";
+import HeroSection from "./Components/HeroSection/HeroSection"
+
+const App = () => {
+    return (
+
+        <HeroSection />
+
+
+    )
+}
 
 const container = document.getElementById("root");
 
