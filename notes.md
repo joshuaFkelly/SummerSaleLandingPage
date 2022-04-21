@@ -38,3 +38,5 @@ go to tailwindcss docs
 Step11: install .gitignore
 
 Step12: Follow tailwindcss ui install instructions on docs
+
+Step13: npm install url-loader for webpack
