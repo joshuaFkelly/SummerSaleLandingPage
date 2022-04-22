@@ -1,5 +1,3 @@
-/* This example requires Tailwind CSS v2.0+ */
-import { ExternalLinkIcon } from '@heroicons/react/solid'
 import Poster from "../../Images/sale-poster.jpg"
 
 export default function HeroSection() {
