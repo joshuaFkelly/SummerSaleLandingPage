@@ -19,12 +19,12 @@ const features = [
 
 export default function Features() {
     return (
-        <div className="bg-white">
+        <div className="bg-gradient-to-b from-dark-blue to-light-blue">
             <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8 lg:grid lg:grid-cols-3 lg:gap-x-8">
                 <div>
-                    <h2 className="text-base font-semibold text-indigo-600 uppercase tracking-wide">Everything you need</h2>
-                    <p className="mt-2 text-3xl font-extrabold text-gray-900">To Get Healthy And Fit</p>
-                    <p className="mt-4 text-lg text-gray-500">
+                    <h2 className="text-base font-semibold text-gray-900 uppercase tracking-wide">THIS SUMMER</h2>
+                    <p className="mt-2 text-3xl font-extrabold text-orange">Go beyond your limits</p>
+                    <p className="mt-4 text-lg text-gray-100">
                         Checkout the benefits that come with joining Team Independent Mixed Martial Arts & Fitness!
                     </p>
                 </div>
@@ -36,7 +36,7 @@ export default function Features() {
                                     <CheckIcon className="absolute h-6 w-6 text-green-500" aria-hidden="true" />
                                     <p className="ml-9 text-lg leading-6 font-medium text-gray-900">{feature.name}</p>
                                 </dt>
-                                <dd className="mt-2 ml-9 text-base text-gray-500">{feature.description}</dd>
+                                <dd className="mt-2 ml-9 text-base text-gray-100">{feature.description}</dd>
                             </div>
                         ))}
                     </dl>

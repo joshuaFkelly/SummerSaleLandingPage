@@ -1,13 +1,13 @@
 export default function Testimonials() {
   return (
-    <section className="bg-indigo-800">
+    <section className=" bg-light-blue">
       <div className="max-w-7xl mx-auto md:grid md:grid-cols-2 md:px-6 lg:px-8">
-        <div className="py-12 px-4 sm:px-6 md:flex md:flex-col md:py-16 md:pl-0 md:pr-10 md:border-r md:border-indigo-900 lg:pr-16">
+        <div className="py-12 px-4 sm:px-6 md:flex md:flex-col md:py-16 md:pl-0 md:pr-10  lg:pr-16">
 
           <blockquote className="mt-6 md:flex-grow md:flex md:flex-col">
             <div className="relative text-lg font-medium text-white md:flex-grow">
               <svg
-                className="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-indigo-600"
+                className="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-accent-blue"
                 fill="currentColor"
                 viewBox="0 0 32 32"
                 aria-hidden="true"
@@ -28,18 +28,18 @@ export default function Testimonials() {
                 </div>
                 <div className="ml-4">
                   <div className="text-base font-medium text-white">Chase Mackinen</div>
-                  <div className="text-base font-medium text-indigo-200">Newnan, GA</div>
+                  <div className="text-base font-medium text-gray-50">Newnan, GA</div>
                 </div>
               </div>
             </footer>
           </blockquote>
         </div>
-        <div className="py-12 px-4 border-t-2 border-indigo-900 sm:px-6 md:py-16 md:pr-0 md:pl-10 md:border-t-0 md:border-l lg:pl-16">
+        <div className="py-12 px-4  sm:px-6 md:py-16 md:pr-0 md:pl-10 lg:pl-16">
 
           <blockquote className="mt-6 md:flex-grow md:flex md:flex-col">
             <div className="relative text-lg font-medium text-white md:flex-grow">
               <svg
-                className="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-indigo-600"
+                className="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-accent-blue"
                 fill="currentColor"
                 viewBox="0 0 32 32"
               >
@@ -58,7 +58,7 @@ export default function Testimonials() {
                 </div>
                 <div className="ml-4">
                   <div className="text-base font-medium text-white">Brad Alston</div>
-                  <div className="text-base font-medium text-indigo-200">Newnan, GA</div>
+                  <div className="text-base font-medium text-gray-50">Newnan, GA</div>
                 </div>
               </div>
             </footer>
