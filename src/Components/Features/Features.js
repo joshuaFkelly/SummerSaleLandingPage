@@ -2,19 +2,19 @@ import { CheckIcon } from '@heroicons/react/outline'
 
 const features = [
     {
-        name: 'Invite team members',
-        description: 'You can manage phone, email and chat conversations all from a single mailbox.',
+        name: 'Free Boxing Gloves',
+        description: 'Sign Up today and get a FREE pair of boxing gloves!',
     },
-    { name: 'List view', description: 'You can manage phone, email and chat conversations all from a single mailbox.' },
+    { name: 'Free Handwraps', description: 'Sign Up today and get a FREE pair of handwraps!' },
+    { name: '1 Free Month', description: '1 FREE MONTH when you sign up today!' },
     {
-        name: 'Keyboard shortcuts',
-        description: 'You can manage phone, email and chat conversations all from a single mailbox.',
+        name: 'Access to our BandApp',
+        description: 'We post daily workouts, and techniques, so you can follow our program wherever you are!',
     },
-    { name: 'Calendars', description: 'You can manage phone, email and chat conversations all from a single mailbox.' },
-    { name: 'Notifications', description: 'Find what you need with advanced filters, bulk actions, and quick views.' },
-    { name: 'Boards', description: 'Find what you need with advanced filters, bulk actions, and quick views.' },
-    { name: 'Reporting', description: 'Find what you need with advanced filters, bulk actions, and quick views.' },
-    { name: 'Mobile app', description: 'Find what you need with advanced filters, bulk actions, and quick views.' },
+    { name: 'Group Discount', description: 'Join as a family or with friends and get a discount on your membership!' },
+    { name: 'Family Friendly', description: 'Kids can participate, watch, or join a class of their own while you workout!' },
+    { name: 'A Workout For Anyone', description: 'You do not need to be a pro kickboxer, or cardio master to enjoy our classes!' },
+    { name: 'Full Classes', description: 'Teamamtes are a great way to keep your motivation high, so you can reach your next fitness goal!' },
 ]
 
 export default function Features() {
@@ -23,9 +23,9 @@ export default function Features() {
             <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8 lg:grid lg:grid-cols-3 lg:gap-x-8">
                 <div>
                     <h2 className="text-base font-semibold text-indigo-600 uppercase tracking-wide">Everything you need</h2>
-                    <p className="mt-2 text-3xl font-extrabold text-gray-900">All-in-one platform</p>
+                    <p className="mt-2 text-3xl font-extrabold text-gray-900">To Get Healthy And Fit</p>
                     <p className="mt-4 text-lg text-gray-500">
-                        Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla nec.
+                        Checkout the benefits that come with joining Team Independent Mixed Martial Arts & Fitness!
                     </p>
                 </div>
                 <div className="mt-12 lg:mt-0 lg:col-span-2">
