@@ -33,13 +33,13 @@ export default function HeroSection() {
                         <div className="inline-flex rounded-md shadow gap-x-2 text-center">
                             <a
                                 href="#"
-                                className="w-1/2 sm:w-fit inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-gray-900 bg-white hover:bg-gray-50"
+                                className="w-fit sm:w-fit inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-gray-900 bg-white hover:bg-gray-50"
                             >
                                 Summer Special
                             </a>
                             <a
                                 href="#"
-                                className="w-1/2 sm:w-fit inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-gray-900 bg-white hover:bg-gray-50"
+                                className="w-fit sm:w-fit inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-gray-900 bg-white hover:bg-gray-50"
                             >
                                 Free Trial
                             </a>
