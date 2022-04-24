@@ -2,12 +2,12 @@ import Logo from "../../Images/independent-logo.png"
 
 export default function NavBar() {
     return (
-        <header className=" text-white bg-dark-blue">
+        <header className=" text-black">
             <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" aria-label="Top" >
                 <div className="w-full py-6 flex items-center justify-start sm:justify-center ">
                     <div className="flex items-center">
                         <img
-                            className="h-20 w-auto sm:h-28"
+                            className="h-20 w-auto sm:h-28 bg-black rounded-full p-[1.5px]"
                             src={Logo}
                             alt="Independent MMA & Fitness Logo"
                         />

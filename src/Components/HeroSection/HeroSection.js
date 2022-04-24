@@ -3,9 +3,9 @@ import Poster from "../../Images/sale-poster.jpg"
 export default function HeroSection() {
     return (
         <div className="bg-dark-blue">
-            <section className="relative  max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 md:pt-0">
+            <section className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12">
 
-                <aside className="h-fit sm:h-72 md:absolute md:inset-0 md:h-full md:w-1/2">
+                <aside className="h-fit sm:h-72 md:absolute md:inset-0 md:h-full md:w-1/2 md:pt-12">
                     <img
                         className="w-full h-full object-contain"
                         src={Poster}
